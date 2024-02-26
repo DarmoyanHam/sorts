@@ -11,9 +11,6 @@ void bubble_sort(int* arr, int size)
         {
             if(arr[j] < arr[j + 1])
             {
-                /* int tmp = arr[j + 1];
-                arr[j + 1] = arr[j];
-                arr[j] = tmp; */
                 std::swap(arr[j], arr[j + 1]);
                 swapped = true;
             }
